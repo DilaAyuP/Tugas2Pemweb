@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgba(65, 120, 213, 0.615), rgba(58, 1, 92, 0.764));
+    padding: 25px;
+}
+
+.kotak {
+    max-width: 700px;
+    width: 100%;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+
+.kotak .title {
+    font-size: 30px;
+    text-align: center;
+}
+

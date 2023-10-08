@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pendaftaran.css">
+    <title>Tugas 2 Pemrograman Web</title>
+</head>
+<body>
+
+    <form action="detail_pendaftar.php" method="GET">
+        <div class="kotak">
+            <div class="title">Formulir Pendaftaran</div>
+            <label> Nama Lengkap: </label><br>
+            <input type="text" name="nama_pendaftar"><br><br>
+
+            <label> Email : </label><br>
+            <input type="email" name="email_pendaftar"><br><br>
+
+            <label> Jenis Kelamin : </label> <br>
+            <input type="radio" name="gender" value="Laki-Laki"> Laki-Laki <br>
+            <input type="radio" name="gender" value="Perempuan"> Perempuan <br><br>
+
+            <label> Tanggal Lahir : </label><br>
+            <input type="date" name="tanggal_lahir"><br><br>
+
+            <label> Alamat : </label><br>
+            <textarea rows="4" cols="50" name="alamat_pendaftar"></textarea><br><br>
+
+            <label> Password : </label><br>
+            <input type="password" name="pwd"><br><br>
+
+            <label> Konfirmasi Password : </label><br>
+            <input type="password" name="pwd"><br><br>
+
+            <button type="submit">Daftar</button>
+
+        </div>
+    </form>
+    
+</body>
+</html>
